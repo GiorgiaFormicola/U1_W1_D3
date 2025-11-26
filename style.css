@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+/* 
+// <weight>: Use a value from 200 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.source-serif-4-<uniquifier> {
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
+body {
+  margin: 0;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+#logo {
+  padding: 0.9rem;
+}
+
+#logo img {
+  width: 170px;
+}
+
+#subtitle {
+  background-color: #fdfbf1;
+}
+
+#subtitle h5 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #004d4c;
+  padding: 0.8rem;
+  border-top: 1px solid #ffd877;
+}
+
+#subtitle span {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+main {
+  width: 640px;
+  margin-inline: auto;
+  color: #333333;
+}
+
+h1 {
+  text-align: center;
+  line-height: 2rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1.8rem;
+}
+
+#description {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+#recipe-photo {
+  box-shadow: 4px 4px 8px #004d4c;
+}
+#recipe-photo img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#author {
+  text-align: center;
+  margin-top: 0.8rem;
+  color: #999999;
+  font-size: 0.8rem;
+}
+
+#featured {
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  border-left: 1px solid #ffd877;
+  padding-left: 1rem;
+}
+
+#featured h3 {
+  text-transform: uppercase;
+  color: #b5460f;
+  font-weight: 500;
+}
+
+#featured a {
+  text-transform: capitalize;
+  color: #107777;
+}
